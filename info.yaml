@@ -1,0 +1,14 @@
+name: Font Info Batch Editor
+developer: Adrien Bachelart
+developerURL: https://github.com/adbac
+# launchAtStartUp: true
+# mainScript: ImageOpenerSubscriber.py
+# What do I do with the two above?
+version: '0.1.0'
+addToMenu:
+- path: FontInfoBatchEditor.py
+  preferredName: Font Info Batch Editor
+  shortKey: ""
+html: true
+requiresVersionMajor: '4'
+requiresVersionMinor: '0'
