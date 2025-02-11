@@ -1,9 +1,7 @@
 name: Font Info Batch Editor
 developer: Adrien Bachelart
 developerURL: https://github.com/adbac
-# launchAtStartUp: true
-# mainScript: ImageOpenerSubscriber.py
-# What do I do with the two above?
+launchAtStartUp: false
 version: '0.1.0'
 addToMenu:
 - path: FontInfoBatchEditor.py
