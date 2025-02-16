@@ -10,7 +10,7 @@ A RoboFont extension that listens to changes made to a font's info, and then all
 Installation
 ------------
 
-Download and double-click the `.roboFontExt` file in the Releases section to install manually, or get it via [Mechanic2](http://robofontmechanic.com/).
+Download and double-click the `.roboFontExt` file in the Releases section to install <!--manually, or get it via [Mechanic2](http://robofontmechanic.com/).-->
 
 When installed, the FontInfoBatchEditor window becomes available from the _Extensions_ menu.
 
