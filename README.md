@@ -1,6 +1,6 @@
 <img src="MechanicIcon.png" alt="extension icon" width="75px"/>
 
-Font Info Batch Editor
+Batch Edit Font Info
 ==========
 
 A RoboFont extension that listens to changes made in a font's info, and then allows you to replicate them across open UFO files.
