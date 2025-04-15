@@ -1,8 +1,8 @@
 import AppKit
 import ezui
-from mojo.roboFont import AllFonts
+from mojo.roboFont import CurrentFont, AllFonts
 from mojo.subscriber import Subscriber, registerCurrentFontSubscriber
-from mojo.UI import PostBannerNotification
+from mojo.UI import Message, PostBannerNotification
 
 
 class BatchEditFontInfoWindow(Subscriber, ezui.WindowController):
@@ -144,4 +144,7 @@ class FullInfoPopover(ezui.WindowController):
     def open(self, parent, location):
         self.w.open(parent, "right", location)
 
-registerCurrentFontSubscriber(BatchEditFontInfoWindow)
+if len(AllFonts()) >= 2:
+    registerCurrentFontSubscriber(BatchEditFontInfoWindow)
+else:
+    Message("Open 2 fonts or more before using Batch Edit Font Info")
