@@ -2,10 +2,10 @@ name: Font Info Batch Editor
 developer: Adrien Bachelart
 developerURL: https://github.com/adbac
 launchAtStartUp: false
-version: '0.1.1'
+version: '0.1'
 addToMenu:
-- path: FontInfoBatchEditor.py
-  preferredName: Font Info Batch Editor
+- path: main.py
+  preferredName: Batch Edit Font Info
   shortKey: ""
 html: true
 requiresVersionMajor: '4'

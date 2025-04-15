@@ -1,7 +1,7 @@
 libFolder: source/lib
 resourcesFolder: source/resources
 htmlFolder: source/html
-path: FontInfoBatchEditor.roboFontExt
+path: BatchEditFontInfo.roboFontExt
 license: |
   The MIT License (MIT)
 

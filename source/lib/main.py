@@ -5,7 +5,7 @@ from mojo.subscriber import Subscriber, registerCurrentFontSubscriber
 from mojo.UI import PostBannerNotification
 
 
-class BatchChangeInfoWindow(Subscriber, ezui.WindowController):
+class BatchEditFontInfoWindow(Subscriber, ezui.WindowController):
 
     debug = True
 
@@ -144,4 +144,4 @@ class FullInfoPopover(ezui.WindowController):
     def open(self, parent, location):
         self.w.open(parent, "right", location)
 
-registerCurrentFontSubscriber(BatchChangeInfoWindow)
+registerCurrentFontSubscriber(BatchEditFontInfoWindow)
