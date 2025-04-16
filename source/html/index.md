@@ -1,4 +1,4 @@
-<img src="images/FontInfoBatchEditorMechanicIcon.png" alt="extension icon" width="75px"/>
+<img src="images/icon.png" alt="extension icon" width="75px"/>
 
 Font Info Batch Editor
 ==========
